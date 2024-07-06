@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="contactform.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+
+.menu{
+    width: 50%; height: 100px;
+margin-left:260px;
+font-family:Cooper Black;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu{
+	width: 80%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.menu li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 2px;
+	padding-left: 50px;
+}
+
+.menu li a{
+	color:#202020;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:orange;
+}
+
+</style>
+
+</head>
+<body>
+<div class="menu"> 
+   <ul>
+    <li><a href="index.php">home</a></li>
+    <li><a href="services.html">services</a></li>
+    <li><a href="aboutus.html">about us</a></li>
+    <li><a href="contactus.html">contact us</a></li>
+   </ul>
+  </div>
+    <div class="wrapper">
+        <h2>
+Contact Us</h2>
+<form action="" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <label>First Name</label>
+                    <input type="text" placeholder="First Name" required class="name">
+                    <i class="fa fa-user"></i>
+                </div>
+<div class="input-box">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Last Name" required class="name">
+                    <i class="fa fa-user"></i>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box">
+                    <label>Email</label>
+                    <input type="email" placeholder="email address" required class="name">
+                    <i class="fa fa-envelope"></i>
+                </div>
+<div class="input-box">
+                    <label>Mobile No</label>
+                    <input type="tel" placeholder="Phone No." required class="name">
+                    <i class="fa fa-phone"></i>
+                </div>
+</div>
+<div class="input-group">
+                <div class="input-box comm">
+                    <label>Comments or Message</label>
+                    <textarea cols="46" rows="3" placeholder="Write Your Message here" class="name"></textarea>
+                    <i class="fa fa-comment"></i>
+                </div>
+</div>
+<div class="button-group">
+                <div class="button-box">
+                    <button type="submit"><i class="fa fa-paper-plane"></i> Send Message</button>
+                </div>
+</div>
+</form>
+</div>
+</body>
+</html>

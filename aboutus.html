@@ -1,0 +1,117 @@
+<!DOCTYPPE html>
+<head>
+<title></title>
+<style>
+
+.menu{
+    width: 50%; height: 100px;
+margin-left:260px;
+font-family:Cooper Black;
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menu{
+	width: 80%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.menu li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	letter-spacing: 2px;
+	padding-left: 50px;
+}
+
+.menu li a{
+	color:#202020;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:orange;
+}
+
+
+body{
+ font-family:Galaxy BT;
+padding:0px 100px;
+background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url();
+background-size:cover;
+background:position:center;
+color:#fff;
+}
+.box{
+    width: 500px;
+    padding: 80px;
+    background: #202020;
+    background: repeating-linear-gradient(45deg, #2b2b2b 0%, #2b2b2b 10%, #222222 50%);
+    border: 1px solid rgb(44,44,43);
+    border-radius: 5px;
+    box-shadow: -5px -5px 5px #ffffff0d,
+    5px 5px 5px #000000a6,
+    10px 10px 10px #000000a6,
+    15px 15px 15px #000000a6,
+    20px 20px 20px #000000a6;
+    margin-left: 20%;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="menu"> 
+   <ul>
+    <li><a href="index.php">home</a></li>
+    <li><a href="services.html">services</a></li>
+    <li><a href="aboutus.html">about us</a></li>
+    <li><a href="contactus.html">contact us</a></li>
+   </ul>
+  </div>
+
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" class="box" method="POST">
+<div>
+<h1 style="text-align: center;"><span style="font-size: x-large;">
+<u>A</u><u>bout Us !</u>
+</span>
+</h1>
+<h3 style="text-align: center,font-family:"Cocktail  Script";"><span style="font-weight: normal;"><span style="font-size: large;">Hello Friends Welcome To newspaper delivery management system</span></span></h3>
+<p style="text-align: center;"><br />
+<p style="font-size: 18px;">newspaper is a Professional blogging Platform. Here we will provide you only interesting content, which you will like very much.<br />
+<p style="text-align: center;"><br />
+<p style="font-size: 18px;">We're dedicated to providing you the best of blogging, with a focus on dependability and daily update. <br /><br />
+<p style="font-size: 18px;">We're working to turn our passion for blogging into a booming online website. We hope you enjoy our blogging as much as we enjoy offering them to you.</p>
+
+<div style="text-align: center;">
+<br />
+</div>
+<div style="text-align: center;">
+<h3>I will keep posting more important posts on my Website for all of you. Please give your support and love.</h3></div>
+<div style="text-align: center;">
+<h3>Thanks For Visiting Our Site</h3></div>
+<div style="text-align: center;">
+<a href="abc.com" target="_blank"><span style="font-size: medium;"><h4></h4></span></a></div>
+</div>
+</form>
+</body>
+</html>
